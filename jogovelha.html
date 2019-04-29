@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        p {
+            font-size: 2.2rem;
+            float: left;
+            margin-right: 20px;
+
+        }
+
+        #mostrador {
+            margin: auto;
+            width: 350px;
+            margin-top: 10px;
+            height: 150px;
+            ;
+        }
+
+        .container {
+            margin: auto;
+            width: 700px;
+            height: 700px;
+            background: gray;
+        }
+
+        .row {
+            height: 229px;
+
+        }
+
+        .quadrado {
+            height: 209px;
+            width: 229px;
+            float: left;
+            border: 2px solid black;
+            text-align: center;
+            padding-top: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mostrador">
+        <p>Vez do jogador:</p>
+        <img src="" height="100" border="0">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="quadrado" id="a1" jogada=""></div>
+            <div class=" quadrado" id="a2" jogada=""> </div>
+            <div class="quadrado" id="a3" jogada=""></div>
+        </div>
+        <div class=" row">
+            <div class="quadrado" id="b1" jogada=""></div>
+            <div class="quadrado" id="b2" jogada=""> </div>
+            <div class="quadrado" id="b3" jogada=""></div>
+        </div>
+        <div class="row">
+            <div class="quadrado" id="c1" jogada=""> </div>
+            <div class="quadrado" id="c2" jogada=""></div>
+            <div class="quadrado" id="c3" jogada=""></div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
